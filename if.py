@@ -14,8 +14,16 @@ if number > 0:
 
 first_number = int(input("Birinchi raqamni kiriting"))
 second_number = int(input("Ikkinchi raqamni kiriting"))
-if (first_number > second_number):
-    max_number = first_number
+if (first_number == second_number):
+    max_number = "Raqamlar teng"
 elif(first_number < second_number):
     max_number = second_number
+elif (first_number > second_number):
+    max_number = first_number
+
 print(f'Maxmimal raqam = {max_number}')
+
+n = 10
+if n > 10:
+    pass
+print("Hello")
