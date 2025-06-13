@@ -11,3 +11,11 @@ else:
 number = int(input("Raqam kiriting"))
 if number > 0:
     print(f'{number} raqami musbat son xisoblanadi.')
+
+first_number = int(input("Birinchi raqamni kiriting"))
+second_number = int(input("Ikkinchi raqamni kiriting"))
+if (first_number > second_number):
+    max_number = first_number
+elif(first_number < second_number):
+    max_number = second_number
+print(f'Maxmimal raqam = {max_number}')
