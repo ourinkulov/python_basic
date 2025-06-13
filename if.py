@@ -6,3 +6,8 @@ elif yosh >= 13:
     print("Siz o'smir yoshidasiz")
 else:
     print("Siz bolasiz")
+
+
+number = int(input("Raqam kiriting"))
+if number > 0:
+    print(f'{number} raqami musbat son xisoblanadi.')
